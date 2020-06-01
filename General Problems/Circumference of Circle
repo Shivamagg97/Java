@@ -1,0 +1,15 @@
+//Circumference of Circle
+
+import java.util.Scanner;
+
+public class Circumcle{
+	public static void main(String []args)
+	{
+		Scanner sc = new Scanner(System.in);
+		float radius,circum;	
+		System.out.print("Enter Radius of Circle:");
+		radius=sc.nextInt();
+		circum=2*3.14f*radius;
+		System.out.print("Circumference of Circle= "+circum);
+	}
+}
