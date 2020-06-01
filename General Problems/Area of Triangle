@@ -1,0 +1,22 @@
+//Area of Triangle
+
+
+import java.util.Scanner;
+
+public class Atriangle{
+	public static void main(String []args)
+	{
+		Scanner sc = new Scanner(System.in);
+		int height,base,area;
+		System.out.print("Enter height:");
+		height=sc.nextInt();
+
+		System.out.print("Enter base:");
+		base= sc.nextInt();
+
+		area = (height*base)/2;
+
+		System.out.print("Area is "+area);
+	}
+
+}
