@@ -1,0 +1,15 @@
+//Area of Circle
+
+import java.util.Scanner;
+
+public class Acircle{
+	public static void main(String []args)
+	{
+		Scanner sc = new Scanner(System.in);
+		double radius,pie=3.14,area;	
+		System.out.print("Enter Radius of Circle:");
+		radius=sc.nextInt();
+		area=pie*radius*radius;
+		System.out.print("Area of Circle= "+area);
+	}
+}
